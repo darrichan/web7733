@@ -1,3 +1,4 @@
+call git clone https://github.com/darrichan/CNAME.git
 call hexo cl
 call hexo g
 call rd /s/q deploy_git
