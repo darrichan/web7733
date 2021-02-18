@@ -18,16 +18,19 @@ lazyloadImg: img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  留言板: { path: /artitalk/, fa: fa-pencil-square-o faa-tada }
-  说说: { path: /artitalk/, fa: fa-pencil-square-o faa-tada }
+  # 留言板: { path: /artitalk/, fa: fa-pencil-square-o faa-tada }
+  # 说说: { path: /artitalk/, fa: fa-pencil-square-o faa-tada }
   # 首页: { path: /, fa: fa-fort-awesome faa-shake }
-  # 归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
-  #   技术: {path: /categories/技术/, fa: fa-code }, 
-  #   生活: {path: /categories/生活/, fa: fa-file-text-o }, 
-  #   资源: {path: /categories/资源/, fa: fa-cloud-download }, 
-  #   随想: {path: /categories/随想/, fa: fa-commenting-o },
-  #   转载: {path: /categories/转载/, fa: fa-book }
-  # } }
+  归档: { path: /archives, fa: fa-archive faa-shake }
+
+
+#submenus: { 
+    #技术: {path: /categories/技术/, fa: fa-code }, 
+     #生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+     #资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    # 随想: {path: /categories/随想/, fa: fa-commenting-o },
+    # 转载: {path: /categories/转载/, fa: fa-book }
+   #} }
   # 清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
   #   书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
   #   番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
