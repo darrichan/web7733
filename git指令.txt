@@ -1,0 +1,27 @@
+版本回退  git reset –hard 77b0a25afcaed96bb7f1ee9bcb3e14a6307c301a
+
+#下载网页
+git clone https://github.com/darrichan/web7733.git
+#下载域名
+git clone https://github.com/darrichan/CNAME.git
+#切换路径到web目录下
+cd ./web7733
+#以上为下载页面-------------------------------------------------------------------------------
+
+
+
+
+npm install
+hexo cl && hexo g #生成静态博客文件
+rm -rf deploy_git
+git clone "https://github.com/darrichan/darrichan.github.io" deploy_git
+mv ./deploy_git/.git ./public/
+mv ../CNAME/CNAME ./public/CNAME
+cd ./public
+git config user.name "yourname"
+git config user.email "youremail"
+git add .
+git commit -m "1"
+git push --force --quiet "https://dc8dd9e1f2995e39b5ad59ac9897e515bca4cc47@github.com/darrichan/darrichan.github.io.git" main:main
+cd ..
+git add . &&git commit -m "1"&& git push --force --quiet "https://dc8dd9e1f2995e39b5ad59ac9897e515bca4cc47@github.com/darrichan/web7733.git" main:main
