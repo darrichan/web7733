@@ -1,3 +1,4 @@
+call cnpm install
 call git clone https://github.com/darrichan/CNAME.git
 call hexo cl
 call hexo g
