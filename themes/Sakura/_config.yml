@@ -7,7 +7,7 @@ avatar: /img/custom/avatar.png
 url: https://sakura.hojun.cn
 description: 分享琪琪和姗姗的日常~
 # cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.5
-cdn: https://cdn.jsdelivr.net/gh/darrichan/CDNv2@1.5/cdn/
+cdn: https://cdn.jsdelivr.net/gh/darrichan/CDNv2@1.6/cdn/
 # https://github.com/darrichan/CDNv2/releases/tag/1.2
 pjax: 1
 # 1开启
